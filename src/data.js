@@ -52,11 +52,11 @@ export const LEVELS = [
 ]
 
 export const GALLERY = [
-  { src: '/images/promise-5x.jpg', alt: 'We promise to make your child 5x better — SIP Abacus Boripara, Maligaon Centre' },
-  { src: '/images/speed-accuracy.jpg', alt: 'Improve speed and accuracy of arithmetic skills in your child with our programme' },
-  { src: '/images/love-numbers.jpg', alt: 'Want to make your child fall in love with numbers? Contact SIP Abacus Maligaon' },
-  { src: '/images/triangle-puzzle.jpg', alt: 'Count the number of triangles puzzle by SIP Abacus' },
-  { src: '/images/classroom.jpg', alt: 'Colourful SIP Abacus classroom decorations', wide: true },
+  { src: `${import.meta.env.BASE_URL}images/promise-5x.jpg`, alt: 'We promise to make your child 5x better — SIP Abacus Boripara, Maligaon Centre' },
+  { src: `${import.meta.env.BASE_URL}images/speed-accuracy.jpg`, alt: 'Improve speed and accuracy of arithmetic skills in your child with our programme' },
+  { src: `${import.meta.env.BASE_URL}images/love-numbers.jpg`, alt: 'Want to make your child fall in love with numbers? Contact SIP Abacus Maligaon' },
+  { src: `${import.meta.env.BASE_URL}images/triangle-puzzle.jpg`, alt: 'Count the number of triangles puzzle by SIP Abacus' },
+  { src: `${import.meta.env.BASE_URL}images/classroom.jpg`, alt: 'Colourful SIP Abacus classroom decorations', wide: true },
 ]
 
 // Reviews as listed on Google Maps (only Shuddha Das left written text).

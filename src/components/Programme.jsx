@@ -64,7 +64,7 @@ export default function Programme() {
             </a>
           </div>
           <motion.img
-            src="/images/speed-accuracy.jpg"
+            src={`${import.meta.env.BASE_URL}images/speed-accuracy.jpg`}
             alt="Improve speed and accuracy of arithmetic skills — SIP Abacus Maligaon"
             loading="lazy"
             whileHover={{ scale: 1.04, rotate: 1 }}

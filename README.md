@@ -23,3 +23,8 @@ npm run preview  # preview the build
 ```
 
 Centre details (phone, address, reviews, etc.) live in `src/data.js`; images are in `public/images/`.
+
+## Publishing (GitHub Pages)
+`.github/workflows/deploy.yml` builds the site and deploys it to GitHub Pages on every push.
+One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+Live URL: https://dibyajyotisatnami.github.io/SIP-Abacus-khanamukh/
